@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlog"
+        android:background="#13F0D9"
+        app:titleTextColor="#181313"
+        app:title="Đăng Nhập"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/edttenadmin"
+        android:hint="Tên Admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/edtpassadmin"
+        android:hint="Nhập mật khẩu "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btndangnhap"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:text="Đăng Nhập"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnthoat"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Thoát"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

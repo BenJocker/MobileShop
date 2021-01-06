@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    tools:context=".Activiti.LienHeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:background="#334856"
+        app:titleTextColor="#FFFF"
+        app:title="Liên Hệ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--        android:background="@drawable/hinhanh"-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Thông tin của chúng tôi"
+            android:textColor="#050505"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/group"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/boder"
+                android:gravity="center">
+
+                <TextView
+
+                    android:layout_width="308dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="Đặng Quang Vinh
+                             SĐT : 0706593239
+                             Facebook : Quang Vinh
+                             Gmail : vinhvuive@gmail.com"
+                    android:textColor="#0F0E0F"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="364dp"
+                android:layout_height="159dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/boder"
+                android:gravity="center">
+
+                <TextView
+
+                    android:layout_width="308dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="Lê Việt Cường
+                                 SĐT : 07xxxxxxxx
+                                 Facebook : Cường
+                                 Gmail : ******@gmail.com"
+                    android:textColor="#0F0E0F"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="362dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/boder"
+                android:gravity="center">
+
+                <TextView
+
+                    android:layout_width="308dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"
+                    android:text="Nguyễn Hoàng vũ
+                                 SĐT : 0362410793
+                                 Facebook : Vũ Hoàng
+                                 Gmail : vudepgai999@gmail.com"
+                    android:textColor="#0F0E0F"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

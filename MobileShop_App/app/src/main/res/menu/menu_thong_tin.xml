@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobileshop.Activiti.ThongTinActivity" >
+    <item android:id="@+id/menuadd"
+        android:icon="@drawable/add"
+        android:title="Thêm sản phẩm"
+        app:showAsAction="always"/>
+</menu>

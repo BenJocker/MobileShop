@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activiti.LichSuMuaHangActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="#334856"
+        android:id="@+id/toolbardonhang"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:layout_marginEnd="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:text="@string/n_h_ng"
+            android:gravity="left"
+            android:textColor="#FFFF" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/lvdh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
