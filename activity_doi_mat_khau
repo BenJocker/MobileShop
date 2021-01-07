@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activiti.DoiMatKhauActivity"
+    android:background="@color/white1">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="#334856"
+        android:id="@+id/tooldoimatkhau"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:layout_marginEnd="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:text="Đổi Mật Khẩu"
+            android:gravity="left"
+            android:textColor="#FFFF" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:paddingTop="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputPass1"
+                style="@style/parent"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="@dimen/loginViewsMargin">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtPass1"
+                    style="@style/modifiedEditText"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:hint="Nhập Mật Khẩu Cũ"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputPass2"
+                style="@style/parent"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="@dimen/loginViewsMargin">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtPass2"
+                    style="@style/modifiedEditText"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:hint="Nhập Mật Khẩu Mới" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputPass3"
+                style="@style/parent"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="@dimen/loginViewsMargin">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtPass3"
+                    style="@style/modifiedEditText"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:hint="Nhập Lại Mật Khẩu"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/btnEditPass"
+                style="@style/loginButton"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:text="Chấp Nhận"
+                app:initialCornerAngle="27dp"
+                app:spinning_bar_color="#FFF"
+                app:spinning_bar_padding="6dp"
+                app:spinning_bar_width="4dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
